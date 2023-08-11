@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: rgb(236, 236, 245);
+    height: 100vh;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 10% 20px 10%;
+}
+.menu {
+    display: flex;
+    margin-right: 50px;
+}
+.options{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+.options li {
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:  rgb(160, 160, 231);
+}
+.navbar h3 {
+    margin-left: 50px;
+}
+.content {
+    color: rgb(160, 160, 231);
+}
